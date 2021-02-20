@@ -8,6 +8,7 @@ This repo contains code examples of this in Python and Go.
 
 - Python: [get-statements-sca.py](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.py)
 - Go: [get-statements-sca.go](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.go)
+- Java: example in an external pkg, see below.
 
 ### Usage
 1. Read the TransferWise documentation, generate your keypair and upload your public key.
