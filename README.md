@@ -9,6 +9,20 @@ This repo contains code examples of this in Python and Go.
 - Python: [get-statements-sca.py](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.py)
 - Go: [get-statements-sca.go](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.go)
 
-## API Documentation
+### Usage
+1. Read the TransferWise documentation, generate your keypair and upload your public key.
+2. Add your profile ID, borderless account ID, and private key file path to the script.
+3. Add your API token as an env var with key: API_TOKEN
+```
+$ export API_TOKEN=<YOUR API TOKEN HERE>
+```
+4. Run the script 
+```
+$ go run get-statements-sca.go
+OR
+$ python3 get-statements-sca.py
+```
+
+### API Documentation
 - [TW API: Get Account Statements](https://api-docs.transferwise.com/#borderless-accounts-get-account-statement)
 - [TW API: Strong Customer Authentication](https://api-docs.transferwise.com/#strong-customer-authentication)
