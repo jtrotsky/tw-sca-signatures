@@ -6,8 +6,8 @@ How it works is that a standard API call to pull an account statement will fail 
 
 This repo contains code examples of this in Python and Go. 
 
-- Python: [get-statements-sca.py](https://github.com/jtrotsky/tw-statements-sca/blob/main/get-statements-sca.py)
-- Go: [get-statements-sca.go](https://github.com/jtrotsky/tw-statements-sca/blob/main/get-statements-sca.go)
+- Python: [get-statements-sca.py](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.py)
+- Go: [get-statements-sca.go](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.go)
 
 ## API Documentation
 - [TW API: Get Account Statements](https://api-docs.transferwise.com/#borderless-accounts-get-account-statement)
