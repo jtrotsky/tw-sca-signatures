@@ -8,7 +8,7 @@ This repo contains code examples of this in Python and Go.
 
 - Python: [get-statements-sca.py](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.py)
 - Go: [get-statements-sca.go](https://github.com/jtrotsky/tw-sca-signatures/blob/main/get-statements-sca.go)
-- Java: example in an external pkg, see below.
+- Java: not included in this pkg, but can be found [here](https://github.com/transferwise/digital-signatures) 
 
 ### Usage
 1. Read the TransferWise documentation, generate your keypair and upload your public key.
@@ -27,6 +27,3 @@ $ python3 get-statements-sca.py
 ### API Documentation
 - [TW API: Get Account Statements](https://api-docs.transferwise.com/#borderless-accounts-get-account-statement)
 - [TW API: Strong Customer Authentication](https://api-docs.transferwise.com/#strong-customer-authentication)
-
-### Other resources
-- [Java Implementation](https://github.com/transferwise/digital-signatures)
