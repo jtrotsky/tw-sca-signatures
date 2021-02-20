@@ -26,3 +26,6 @@ $ python3 get-statements-sca.py
 ### API Documentation
 - [TW API: Get Account Statements](https://api-docs.transferwise.com/#borderless-accounts-get-account-statement)
 - [TW API: Strong Customer Authentication](https://api-docs.transferwise.com/#strong-customer-authentication)
+
+### Other resources
+- [Java Implementation](https://github.com/transferwise/digital-signatures)
